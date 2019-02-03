@@ -1,5 +1,7 @@
 // using this file is optional
 // you can also load the code snippets in using your browser's console
+divs = document.querySelectorAll('div');
+
 function capture(e) {
   console.log(this.firstChild.nodeValue.trim() + ' captured');
 }
